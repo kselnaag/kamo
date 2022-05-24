@@ -1,0 +1,79 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=cp1251"/>
+<title>kamo (Perlin noise filter)</title>
+<script src="kamo.js"></script>
+<style>
+body,html {
+  background-color: #222;
+  color: #ccc;
+}
+#column-1 {
+  float: left;
+}
+#column-2 {
+  float: left;
+}
+#column-3 {
+  float: left;
+}
+</style>
+</head>
+<body>
+<div id="column-1">
+<canvas id="myCanvas_01" width="400" height="400">Canvas 01</canvas>
+<div>
+LightGreen
+</div>
+<div>
+octaves
+<input id="okt1" type="range" min="1" max="10" step="1" value="4">
+<span id="okt1text">4</span>
+</div>
+<div>
+persistence
+<input id="pers1" type="range" min="0" max="10" step="0.1" value="5">
+<span id="pers1text">5</span>
+</div>
+<div>
+gain
+<input id="gain1" type="range" min="10" max="100" step="10" value="30">
+<span id="gain1text">30</span>
+</div>
+</div>
+<div id="column-2">
+<canvas id="myCanvas_02" width="400" height="400">Canvas 02</canvas>
+<div>
+Brown
+</div>
+<div>
+octaves
+<input id="okt2" type="range" min="1" max="10" step="1" value="3">
+<span id="okt2text">3</span>
+</div>
+<div>
+persistence
+<input id="pers2" type="range" min="0" max="10" step="0.1" value="5">
+<span id="pers2text">5</span>
+</div>
+<div>
+gain
+<input id="gain2" type="range" min="10" max="100" step="10" value="20">
+<span id="gain2text">20</span>
+</div>
+</div>
+<div id="column-3">
+<canvas id="myCanvas_03" width="400" height="400">Canvas 03</canvas>
+<div>
+Result (DarkGreen base)
+</div>
+<div>
+v
+</div>
+<div>
+<button id="generate">Generate</button>
+</div>
+</div>
+
+</body>
+
