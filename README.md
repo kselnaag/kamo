@@ -2,6 +2,7 @@
 
 ----
 Just look at the result: [GitHubPage](https://kselnaag.github.io/kamo/ "kamo project demo")
+
 Kamo is the simple camouflage texture generator based on [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise "Perlin noise wiki") filter. Prototype of this texture is Flora98 - russian army camouflage pattern. To generate this texture we use 3 layers of color, one on each other: 
 -   dark green (76,100,104) - base layer, full canvas,
 -   light green (164,188,166) - middle layer, Perlin filter, 
